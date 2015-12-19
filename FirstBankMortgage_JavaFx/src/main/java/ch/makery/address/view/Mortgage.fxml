@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="363.0" prefWidth="693.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.MortgageController">
+   <children>
+      <SplitPane dividerPositions="0.4126984126984127" layoutX="153.0" layoutY="70.0" prefHeight="300.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TextField layoutX="148.0" layoutY="14.0" />
+                  <TextField layoutX="148.0" layoutY="61.0" prefHeight="37.0" prefWidth="263.0" />
+                  <TextField layoutX="148.0" layoutY="115.0" prefHeight="37.0" prefWidth="263.0" />
+                  <Label layoutX="98.0" layoutY="22.0" text="Income" textFill="#ff0505" />
+                  <Label layoutX="98.0" layoutY="123.0" text="Expenses" textFill="#ff0505" />
+                  <Label layoutX="98.0" layoutY="69.0" text="CreditScore" textFill="#ff0505" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
